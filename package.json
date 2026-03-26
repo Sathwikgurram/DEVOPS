@@ -1,21 +1,13 @@
 {
-  "name": "devops",
+  "name": "my-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "My simple website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo 'No tests yet' && exit 0",
+    "build": "echo 'Build complete'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sathwikgurram/DEVOPS.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Sathwikgurram/DEVOPS/issues"
-  },
-  "homepage": "https://github.com/Sathwikgurram/DEVOPS#readme"
+  "author": "Your Name",
+  "license": "MIT"
 }
