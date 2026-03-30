@@ -4,13 +4,14 @@
   "description": "My simple website",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo 'No tests yet' && exit 0",
+    "start": "node app.js",
+    "test": "node -e \"console.log('No tests yet')\"",
     "build": "echo 'Build complete'"
   },
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "express": "^5.2.1",
     "terraform": "^1.23.1"
   }
 }
